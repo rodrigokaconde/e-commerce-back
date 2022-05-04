@@ -7,6 +7,7 @@ import com.rfoliveira.ecommerceback.service.BookService;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/book")
 public class BookController {
@@ -15,7 +16,6 @@ public class BookController {
 
     @PostMapping
     public Book saveBook(@RequestBody Book book){
-        System.out.println("aqui");
         return bookService.saveBook(book);
     }
 
