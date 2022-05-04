@@ -1,7 +1,7 @@
 # e-commerce-back
 This project uses Spring Framework.
 
-## Front
+## Front-End
 Access the front at: 
 ``` sehll script
 https://github.com/rodrigokaconde/e-commerce-fronf.git
